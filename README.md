@@ -9,7 +9,7 @@ Para aprender sobre `HackatonITA`, mira la informacion que esta disponible en li
 If you want to start working on your project right away, you might want to try the following commands:
 
 ```bash
-git clone 
+git clone https://github.com/Lizeth-98/HackatonCiberseguridad.git
 cd HackatonITA/
 dfx help
 dfx canister --help
