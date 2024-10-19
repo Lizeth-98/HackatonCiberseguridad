@@ -1,3 +1,8 @@
-service : {
-    "greet": (text) -> (text) query;
+service : () -> {
+  get : (text) -> (opt text) query;
+  getAllCrimenes : () -> (vec text) query;
+  getAllZonas : () -> (vec text) query;
+  getCrimenesByZona : (text) -> (vec text) query;
+  getZonasByCrimen : (text) -> (vec text) query;
+  set : (text, text) -> ();
 }

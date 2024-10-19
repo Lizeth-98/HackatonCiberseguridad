@@ -1,10 +1,10 @@
 {
   "canisters": {
     "HackatonITA_backend": {
-      "build": "python -m kybra HackatonITA_backend src/HackatonITA_backend/src/main.py src/HackatonITA_backend/HackatonITA_backend.did",
+      "build": "python -m kybra HackatonITA_backend src/HackatonITA_backend/src/main.py",
       "candid": "src/HackatonITA_backend/HackatonITA_backend.did",
       "gzip": true,
-      "post_install": ".kybra/HackatonITA_backend/post_install.sh",
+      
       "tech_stack": {
         "cdk": {
           "kybra": {}

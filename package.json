@@ -14,5 +14,9 @@
   "type": "module",
   "workspaces": [
     "src/HackatonITA_frontend"
-  ]
+  ],
+  "dependencies": {
+    "@dfinity/auth-client": "^2.1.2",
+    "@dfinity/use-auth-client": "^2.1.2"
+  }
 }
