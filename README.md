@@ -10,7 +10,7 @@ If you want to start working on your project right away, you might want to try t
 
 ```bash
 git clone https://github.com/Lizeth-98/HackatonCiberseguridad.git
-cd HackatonITA/
+cd HackatonCiberseguridad/
 dfx help
 dfx canister --help
 ```
